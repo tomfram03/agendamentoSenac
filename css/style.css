@@ -1,0 +1,65 @@
+/* Estilo base para o container do formulário */
+.formulario-container {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para as labels */
+.formulario-container  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada de texto e seleção */
+.formulario-container input
+{
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #0a3fbb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+/* Estilo responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+    .formulario {
+        max-width: 100%;
+        padding: 10px;
+        margin: 10px; /* Reduz as margens para aproximá-lo de outros elementos */
+    }
+
+    .formulario label,
+    .formulario input[type="text"],
+    .formulario select,
+    .formulario .button {
+        font-size: 16px;
+    }
+}

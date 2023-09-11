@@ -1,0 +1,86 @@
+/* Estilo para tabela */
+table {
+    border-collapse: collapse; /* Remove espaços entre as células da tabela */
+    width: 100%; /* Define a largura da tabela como 100% */
+    border: 1px solid #ccc; /* Borda da tabela */
+}
+
+/* Estilo para cabeçalho da tabela */
+th {
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+    color: #333; /* Cor do texto do cabeçalho */
+    font-weight: bold; /* Texto em negrito */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    border: 1px solid #ccc; /* Borda do cabeçalho */
+}
+
+/* Estilo para linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+}
+/* Estilo para células da tabela */
+td {
+    padding: 10px; /* Espaçamento interno das células */
+    border: 1px solid #ccc; /* Borda das células */
+}
+
+/* Estilo para a coluna "Nome" */
+td.nome {
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo para a coluna "Data" */
+td.data {
+    font-style: italic; /* Texto em itálico */
+}
+
+/* Estilo para a coluna "Horário" */
+td.horario {
+    color: #007bff; /* Cor do texto da coluna "Horário" */
+}
+
+/* Estilo para a div que envolve a tabela */
+.table-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente (opcional) */
+    height: 55vh; /* Define a altura da div como 100% da altura da viewport */
+}
+
+/* Estilo para tabela (o mesmo estilo da resposta anterior) */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para a tabela */
+table {
+    margin: 0 auto; /* Centraliza horizontalmente a tabela */
+    border-collapse: collapse;
+}
+
+/* Estilo para as células do cabeçalho */
+th, h2 {
+    background-color: #f2f2f2; /* Cor de fundo */
+    text-align: center; /* Alinhamento de texto à esquerda */
+    padding: 8px; /* Espaçamento interno */
+}
+
+/* Estilo para as células de dados */
+td {
+    text-align: left; /* Alinhamento de texto à esquerda */
+    padding: 8px; /* Espaçamento interno */
+}
+
+/* Estilo para as linhas ímpares (opcional) */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Cor de fundo para linhas ímpares */
+}
+
+
+

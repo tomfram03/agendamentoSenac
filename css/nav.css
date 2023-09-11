@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+}
+
+/* Estilo para o menu de navegação */
+.menu {
+    background-color: #ff8800;
+    overflow: hidden; /* Para criar um contexto de bloco para os filhos flutuantes */
+    margin-bottom: 10%;
+}
+
+/* Estilo para os links do menu */
+.menu a {
+    float: left; /* Alinha os links à esquerda */
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Altera a cor do link quando o mouse passa sobre ele */
+.menu a:hover {
+    background-color: #0a3fbb ;
+    color: #fff;
+}
